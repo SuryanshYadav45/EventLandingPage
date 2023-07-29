@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+  overflow-x: none;
+}
+
+.title {
+  background-color: rgba(198, 188, 188, 0.649);
+  
+}
+
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 88vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  margin-top: 40px;
+  
+  color:  #1934aaa2;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.boldtext
+{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3em;
+  
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2em;
+  
+  font-weight: bold;
+}
+
+.featurebox {
+  text-align: center;
+}
+
+.parentp {
+  color: #8f8f8f;
+}
+.navbardiv
+{
+  background-color: #1934aaa2;
+  width: 100%;
+}
+.smalldiv
+{
+  display: none;
+}
+.navbar{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 3.5rem;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+@keyframes example {
+  0% {
+    left: 0;
+    right: 0;
+  }
+
+  25% {
+    left: 150px;
+    right: 0;
+  }
+
+  50% {
+    left: 150px;
+    right: 150px;
+  }
+
+  75% {
+    left: 0;
+    right: 150px;
+  }
+
+  100% {
+    left: 0;
+    right: 0;
+  }
+}
+
+
+.nav-item {
+  padding: 0 25px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-family: 'Testimonials';
+  font-weight: lighter;
+  color: #CFD2CF;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.dlbtn {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.titleimg {
+  width: 100%;
+  margin: none !important;
+}
+
+.features {
+  background-color: #fff;
+  
+}
+.details
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.detailtitle{
+  color: #1934aaa2;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.detailtitle::after
+{
+  display: block;
+  content: "";
+  height: 5px;
+  width: 120px;
+  background-color: #1934aaa2;
+}
+
+.webinar-description
+{
+  color: rgba(143, 143, 143, 1);
+}
+.webinar-description span
+{
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+}
+
+  
+.formdiv
+{
+  background-color: rgba(198, 188, 188, 0.649);
+}
+
+.registration 
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+.section-title
+{
+  color: #1934aaa2;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.section-title::after{
+  content: "";
+  display: block;
+  height: 5px;
+  width: 320px;
+  margin-top:10px;
+  background-color: #1934aaa2;
+}
+.register
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.actualdiv
+{
+ width: 350px;
+ height: 500px;
+ background-color: #1934aaa2;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ border-radius: 10px;
+
+}
+.actualdiv h4{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+}
+form{
+  width: 100%;
+  padding: 0px 20px;
+}
+label{
+  color: white;
+  font-size: 20px;
+}
+input{
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.registerbtn
+{
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+}
+.registerbtn:hover{
+  background: transparent;
+}
+
+
+
+
+
+
+.footer
+{
+  text-align: center;
+  padding: 40px 20px 40px 30px;
+  background-color: #1934aaa2;
+}
+.footer p{
+  color: white;
+}
+.footerimg
+{
+  color: white;
+  padding:20px 10px 40px 20px;
+}
+
+.agenda
+{
+  max-width: 1200px;
+  margin:  0 auto;
+  padding: 0 20px;
+}
+.speakerdiv
+{
+  background-color: rgba(198, 188, 188, 0.649);
+}
+.speaker-info
+{
+  max-width: 1200px;
+  margin:  0 auto;
+  padding: 0 20px;
+  padding-bottom: 30px;
+}
+.speakername
+{
+  color: #1934aaa2;
+  margin-bottom: 30px
+}
+.speakername::after{
+  content: "";
+  display: block;
+  background-color: #1934aaa2;
+  height: 5px;
+  width: 220px;
+}
+.profile
+{
+  width: 150px;
+  border-radius: 50%;
+}
+.separatediv
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+
+
+.thank-you-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-header {
+  text-align: center;
+  color: #0066cc;
+}
+
+.thank-you-message {
+  margin: 15px 0;
+}
+
+.thank-you-link {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #0066cc;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.thank-you-link:hover {
+  background-color: #0052a3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile view */
+@media (max-width: 702px) {
+ 
+.smalldiv{
+  display: block;
+  margin-top: -200px;
+}
+.imgdiv{
+  display: none;
+}
+
+.header
+{
+  display: flex;
+}
+
+  .titleheader {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px !important;
+  }
+
+  
+  .logoimg{
+    width: 150px;
+    margin-left: 30px;
+  }
+  h2
+  {
+    font-size: 2rem;
+  }
+  .testimonial-image
+  {
+    width: 100px;
+  }
+}
